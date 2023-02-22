@@ -38,44 +38,45 @@
 }
 
 
-#container {
+#traffic-light {
+    width: 200px;
     background-color: black;
-    height: 300px;
-    width: 100px;
-    margin: 0 auto;
     border-radius: 10px;
-    padding: 10px;
     display: flex;
-    flex-direction: column;
+   
     justify-content: space-between;
     align-items: center;
+    padding: 10px 10px;
+    border: 2px solid springgreen;
 }
 
-#red, #yellow, #green {
-    background-color: gray;
-    height: 70px;
-    width: 70px;
+.circle {
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
+    background-color: gray;
+    margin: 0px 0px;
 }
 
-.active {
-    background-color: rgb(218, 124, 18) !important;
-}
-.active_last{
-    background-color: rgb(93, 233, 13)!important;
+#red {
+    background-color: red;
 }
 
-#button {
-    margin-top: 20px;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+.button {
+    margin-left: 15px;
+    padding: 22px 20px;
     border: none;
+    border-radius: 5px;
+    background-color: rgb(138, 138, 138);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
     cursor: pointer;
-}
-
-#button:hover {
-    background-color: #3e8e41;
 }
