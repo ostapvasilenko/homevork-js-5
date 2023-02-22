@@ -36,3 +36,46 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+
+#container {
+    background-color: black;
+    height: 300px;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#red, #yellow, #green {
+    background-color: gray;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.active {
+    background-color: rgb(218, 124, 18) !important;
+}
+.active_last{
+    background-color: rgb(93, 233, 13)!important;
+}
+
+#button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #3e8e41;
+}
