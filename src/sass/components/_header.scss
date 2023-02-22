@@ -43,7 +43,7 @@
     background-color: black;
     border-radius: 10px;
     display: flex;
-   
+
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px;
@@ -80,3 +80,14 @@
     font-size: 25px;
     cursor: pointer;
 }
+
+p {
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+p.active {
+    background-color: orange;
+    color: white;
+  }
