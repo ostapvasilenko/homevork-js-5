@@ -28,3 +28,31 @@ const changeLight = () => {
 				currentColor === 2 ? 'green' : 'gray';
 }
 
+
+
+let selectedBlock = null;
+
+function handleClick(event) {
+	const clickedBlock = event.target;
+
+	if (clickedBlock === selectedBlock) {
+		return;
+	}
+
+	if (selectedBlock) {
+		selectedBlock.classList.remove('selected');
+	}
+
+	selectedBlock = clickedBlock;
+	selectedBlock.classList.add('selected');
+}
+
+const blocks = document.querySelectorAll('.block');
+blocks.forEach((block) => {
+	block.addEventListener('click', handleClick);
+});
+
+
+
+
+

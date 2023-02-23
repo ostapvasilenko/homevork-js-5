@@ -81,3 +81,15 @@
     cursor: pointer;
 }
 
+.block {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(202, 202, 202);
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: rgb(255, 166, 0);
+}
