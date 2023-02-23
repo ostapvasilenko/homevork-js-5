@@ -28,12 +28,3 @@ const changeLight = () => {
 				currentColor === 2 ? 'green' : 'gray';
 }
 
-
-const PARAGRAF = document.querySelectorAll('button');
-
-PARAGRAF.forEach(p => {
-  p.addEventListener('click', () => {
-    PARAGRAF.forEach(b => b.classList.remove('active'));
-    p.classList.add('active');
-  });
-});
