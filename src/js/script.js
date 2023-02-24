@@ -56,5 +56,12 @@ blocks.forEach((block) => {
 
 /* TASK 6 */
 
-
-
+window.onload = function() {
+	var tree = document.getElementById("tree");
+	tree.addEventListener("click", function(event) {
+		if (event.target.nodeName === "LI") {
+			event.target.classList.toggle("open");
+			event.target.classList.toggle("collapsed");
+		}
+	});
+};

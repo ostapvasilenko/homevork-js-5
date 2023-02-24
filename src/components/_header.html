@@ -50,27 +50,44 @@
 
       <div class="col-12">
         <h1>TASK 6</h1>
-        <!-- кнопки з підказками зверху за замовчуванням -->
-        <div class="tooltip top">
-          <button>Кнопка 1</button>
-          <span class="tooltiptext">Підказка для кнопки 1</span>
-        </div>
-
-        <div class="tooltip top">
-          <button>Кнопка 2</button>
-          <span class="tooltiptext">Підказка для кнопки 2</span>
-        </div>
-
-        <!-- кнопки з підказками знизу, якщо підказка не поміщається зверху -->
-        <div class="tooltip top">
-          <button>Кнопка 3</button>
-          <span class="tooltiptext">Підказка для кнопки 3, яка не поміщається зверху</span>
-        </div>
-
-        <div class="tooltip bottom">
-          <button>Кнопка 4</button>
-          <span class="tooltiptext">Підказка для кнопки 4</span>
-        </div>
+        <ul id="tree">
+          <li class="open">Директорія 1
+            <ul>
+              <li>Файл 1</li>
+              <li>Файл 2</li>
+              <li>Директорія 1.1
+                <ul>
+                  <li>Файл 3</li>
+                  <li>Файл 4</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="open">Директорія 2
+            <ul>
+              <li>Файл 5</li>
+              <li>Файл 6</li>
+              <li>Директорія 2.1
+                <ul>
+                  <li>Файл 7</li>
+                  <li>Файл 8</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="open">Директорія 3
+            <ul>
+              <li>Файл 9</li>
+              <li>Файл 10</li>
+              <li>Директорія 3.1
+                <ul>
+                  <li>Файл 11</li>
+                  <li>Файл 12</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
