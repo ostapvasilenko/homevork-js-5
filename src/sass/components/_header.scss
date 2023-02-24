@@ -107,4 +107,34 @@ h1 {
 
 /* TASK 6 */
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    /* замініть це значення відповідно до ваших потреб */
+    margin: 20px;
+}
 
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip.top .tooltiptext {
+    top: -5px;
+}
+
+.tooltip.bottom .tooltiptext {
+    bottom: -5px;
+}
