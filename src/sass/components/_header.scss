@@ -142,3 +142,16 @@ li.open>ul {
         transition: 0.2s;
     }
 }
+
+/* TASK 8 */
+
+#text-block {
+    border: 1px solid black;
+    width: 50%;
+    height: 100px;
+    resize: both; /* Дозволяємо змінювати розмір об'єкта в обох напрямках */
+    overflow: auto; /* Додаємо прокрутку, якщо блок тексту занадто великий */
+    margin-bottom: 50px;
+    margin-top: 25px;
+    padding: 15px;
+  }
