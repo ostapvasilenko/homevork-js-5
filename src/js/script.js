@@ -65,6 +65,3 @@ window.onload = function() {
 		}
 	});
 };
-
-
-/* TASK 8 */

@@ -137,6 +137,7 @@ ul ul {
 
 li.open>ul {
     display: block;
+
     :hover {
         font-weight: 600;
         transition: 0.2s;
@@ -149,9 +150,11 @@ li.open>ul {
     border: 1px solid black;
     width: 50%;
     height: 100px;
-    resize: both; /* Дозволяємо змінювати розмір об'єкта в обох напрямках */
-    overflow: auto; /* Додаємо прокрутку, якщо блок тексту занадто великий */
+    resize: both;
+    /* Дозволяємо змінювати розмір об'єкта в обох напрямках */
+    overflow: auto;
+    /* Додаємо прокрутку, якщо блок тексту занадто великий */
     margin-bottom: 50px;
     margin-top: 25px;
     padding: 15px;
-  }
+}
