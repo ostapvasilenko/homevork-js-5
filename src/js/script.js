@@ -54,7 +54,7 @@ blocks.forEach((block) => {
 	block.addEventListener('click', handleClick);
 });
 
-/* TASK 6 */
+/* TASK 7 */
 
 window.onload = function() {
 	var tree = document.getElementById("tree");
