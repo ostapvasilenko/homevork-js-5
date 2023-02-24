@@ -1,3 +1,5 @@
+/* TASK 2 */
+
 const modal = document.getElementById("modal");
 const openModalBtn = document.getElementById("open-modal-btn");
 const closeModalBtn = document.getElementsByClassName("close")[0];
@@ -14,7 +16,7 @@ openModalBtn.addEventListener("click", openModal);
 
 closeModalBtn.addEventListener("click", closeModal);
 
-
+/* TASK 4 */
 
 let currentColor = 0;
 const lights = document.querySelectorAll('.circle');
@@ -28,7 +30,7 @@ const changeLight = () => {
 				currentColor === 2 ? 'green' : 'gray';
 }
 
-
+/* TASK 5 */
 
 let selectedBlock = null;
 
@@ -52,7 +54,7 @@ blocks.forEach((block) => {
 	block.addEventListener('click', handleClick);
 });
 
-
+/* TASK 6 */
 
 
 

@@ -1,9 +1,10 @@
-h1{
+h1 {
     font-size: 40px;
     font-weight: 700;
     margin-top: 30px;
 }
 
+/* TASK 2 */
 .modal {
     display: none;
     position: fixed;
@@ -43,17 +44,18 @@ h1{
     cursor: pointer;
 }
 
+/* TASK 4 */
 
 #traffic-light {
     width: 200px;
     background-color: black;
     border-radius: 10px;
     display: flex;
-
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px;
     border: 2px solid springgreen;
+    margin-left: 25px;
 }
 
 .circle {
@@ -87,6 +89,8 @@ h1{
     cursor: pointer;
 }
 
+/* TASK 5 */
+
 .block {
     width: 100%;
     padding: 15px;
@@ -101,43 +105,6 @@ h1{
 }
 
 
+/* TASK 6 */
 
-.button1 {
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: none;
-    background-color: #4CAF50;
-    color: #FFFFFF;
-    cursor: pointer;
-  }
-  
-  /* стиль для підказок */
-  .tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-    background-color: #4CAF50;
-  }
-  
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-  }
+
