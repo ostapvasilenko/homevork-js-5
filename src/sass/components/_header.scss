@@ -105,6 +105,33 @@ h1 {
 }
 
 
+/* TASK 6 */
+
+.button-top:hover::before {
+    content: "Підказка зверху";
+    display: block;
+    position: absolute;
+    top: 870px;
+    left: 0;
+    width: 40%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.button-bottom:hover::after {
+    content: "Підказка знизу";
+    display: block;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
 /* TASK 7 */
 
 ul {
