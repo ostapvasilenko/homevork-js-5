@@ -54,15 +54,11 @@ blocks.forEach((block) => {
 	block.addEventListener('click', handleClick);
 });
 
-
-/* TASK 6 */
-
-
 /* TASK 7 */
 
-window.onload = function() {
+window.onload = function () {
 	var tree = document.getElementById("tree");
-	tree.addEventListener("click", function(event) {
+	tree.addEventListener("click", function (event) {
 		if (event.target.nodeName === "LI") {
 			event.target.classList.toggle("open");
 			event.target.classList.toggle("collapsed");
