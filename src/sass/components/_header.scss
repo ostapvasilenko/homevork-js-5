@@ -45,6 +45,19 @@ h1 {
     cursor: pointer;
 }
 
+/* TASK 3 */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    background-color: green;
+    display: block;
+    margin: 0 auto;
+}
+
 /* TASK 4 */
 
 #traffic-light {
@@ -185,14 +198,3 @@ li.open>ul {
     padding: 15px;
 }
 
-/**/
-body {
-    margin: 0;
-    padding: 0;
-}
-
-canvas {
-    background-color: green;
-    display: block;
-    margin: 0 auto;
-}
